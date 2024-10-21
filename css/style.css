@@ -1,0 +1,137 @@
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  a {
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    font-family: "Jost", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    font-family: "Jost", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+  }
+  
+  h3 {
+    font-size: 2rem;
+    font-family: "Jost", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+  }
+  
+  h4 {
+    font-size: 1.7rem;
+    font-family: "Jost", sans-serif;
+    font-style: normal;
+    font-weight: 200;
+  }
+  
+  p {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+  }
+  
+  .btn-1 {
+    background-color: #d6d1c4;
+    color: #F8FAFB;
+  }
+  
+  .btn-1:hover {
+    border: 1px solid #5e5c54;
+    background-color: #F8FAFB;
+    color: #5e5c54;
+  }
+  
+  
+  .footer {
+    background-color: #101920;
+  }
+  
+  .whatsapp {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+  }
+  
+  /*---portada---*/
+  .index {
+    background-color: #F8FAFB;
+  }
+  
+  .portada {
+    background-image: url(../imagenes/index.webp);
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+  }
+  @media (min-width: 768px) {
+    .portada {
+      background-image: url(../imagenes/index.webp);
+      height: 600px;
+      background-position: center;
+      background-attachment: fixed;
+    }
+  }
+  @media (min-width: 1280px) {
+    .portada {
+      background-image: url(../imagenes/index.webp);
+      height: 600px;
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      gap: 1rem;
+    }
+  }
+  
+  .portada h1 {
+    color: #d6d1c4;
+    display: block;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+  }
+  @media (min-width: 768px) {
+    .portada h1 {
+      color: #d6d1c4;
+      display: block;
+      padding: 0rem;
+      align-items: start;
+      text-align: center;
+      padding: 1rem;
+    }
+  }
+  .portada h4 {
+    padding: 1rem;
+    color: #F8FAFB;
+    text-align: center;
+  }
+  @media (min-width: 768px) {
+    .portada h4 {
+      padding: 1rem;
+      gap: 3rem;
+      text-align: center;
+    }
+  }
+  
+  
+  
+  
+  /*# sourceMappingURL=style.css.map */
+  
